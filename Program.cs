@@ -47,11 +47,11 @@ class Program{
         jogador.iniciar("Bruno");
         //jogador.info();
 
-        Inimigo i1 = new Inimigo("Doido");
-        Inimigo i2 = new Inimigo("Maluco");
-        Inimigo i3 = new Inimigo("Pirado");
+        Inimigo i1 = new Inimigo("um");
+        Inimigo i2 = new Inimigo("dois");
+        Inimigo i3 = new Inimigo("Tres");
 
-        Inimigo.alerta = true;
+        Inimigo.alerta = false;
         i1.info();
         i2.info();
         i3.info();
